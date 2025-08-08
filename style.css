@@ -18,7 +18,7 @@ body {
   height: 100vh;
   background-size: cover;
   background-position: left;
-  background-image: url(pabi_profile.png);
+  background-image: url(images/pabi_profile.png);
 }
 
 .container{
@@ -300,4 +300,5 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #d81b60;
 }
+
 

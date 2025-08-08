@@ -1,0 +1,302 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #080808;
+  color: #fce4ec;
+  line-height: 1.6;
+}
+
+#header{
+   width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: left;
+  background-image: url(images/pabi_profile.png);
+}
+
+.container{
+  padding:10px 10%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo{
+  width: 130px;
+}
+
+.home-intro{
+  margin-top: 20%;
+  font-size: 30px;
+ margin-right: 30px;
+}
+
+.home-intro h2{
+  font-size: 60px;
+  margin-top: 20%;
+}
+
+
+
+/*******************about*********************************/
+
+#about{
+  padding: 80px 0;
+  color: #ababab;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1{
+  flex-basis:35%;
+}
+
+.about-col-1 img{
+ 
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-col-2{
+  flex-basis: 60%;
+
+}
+
+.sub-title{
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+.header .h1 {
+  color: #ffb6c1;
+  margin: 0; /* remove bottom margin */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ec407a;
+}
+
+section {
+  padding: 50px 20px;
+  border-bottom: 1px solid #444;
+}
+
+.home-container {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* makes it responsive */
+  text-align: left;
+}
+
+
+
+.home-intro {
+  max-width: 500px;
+  margin-bottom: 30%;
+}
+
+.home-intro .h2 {
+  color: #ffb6c1;
+  margin-bottom: 10px;
+}
+
+.home-intro p {
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ec407a;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #d2366a;
+}
+
+
+h2 {
+  color: #f06292;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #ec407a;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #d81b60;
+}
+
+#projects h2{
+    text-align: center;
+     margin-bottom: 30px;
+
+}
+
+.project {
+  background-color: #2b2b3a;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-left: 4px solid #f48fb1;
+  border-radius: 6px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #f8bbd0;
+}
+
+a {
+  color: #f06292;
+}
+
+#resume {
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+#resume ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto 0;
+  display: inline-block; /* center the list */
+  text-align: center; /* keep bullets aligned left */
+}
+
+#resume li {
+  margin-bottom: 10px;
+   text-align: center;
+}
+
+
+footer {
+  background-color: #2c2c3e;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #f8bbd0;
+}
+
+#contact h2{
+    text-align: center;
+     margin-bottom: 30px;
+
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3a3a4d;
+  color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #ec407a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #d81b60;
+}
